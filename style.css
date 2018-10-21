@@ -13,7 +13,6 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .navigation_menu{
-    position: fixed;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -30,7 +29,16 @@ margin-right: 5vw;
 transition: 0.2s;
 }
 
+.navigation_menu_item:visited{
+    color:#f5d394;
+}
+
 .navigation_menu_item:hover{
+    color: #fff;
+    opacity: 0.9;
+}
+
+.navigation_menu_item:active{
     color: #fff;
     opacity: 0.9;
 }
