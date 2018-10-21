@@ -1,0 +1,74 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation{
+    background-color: #000;
+}
+
+.navigation_menu{
+    position: fixed;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+list-style-type: none;
+padding:2vh 0;
+height: 33vh;
+}
+
+.navigation_menu_item{
+font-size: 8vw;
+color:#f5d394;
+margin-right: 5vw;
+transition: 0.2s;
+}
+
+.navigation_menu_item:hover{
+    color: #fff;
+    opacity: 0.9;
+}
+
+.section-hero{
+    position: relative;
+    background-image: url(img/section-hero-background.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section-hero_headline{
+    position: absolute;
+    left: 50%;
+    top: 27%;
+    transform: translate(-50%, -50%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 7vw;
+    line-height: 140%;
+    text-align: center;
+    color: aliceblue;
+    opacity: 0.85;
+    background-color: rgba(55, 71, 79, 0.5);
+    padding:1vh 2vw;
+    border-radius: 20px;
+    
+}
+
+.section-about-me{
+
+}
+
+.section-technology{
+
+}
+
+.footer{
+
+}
