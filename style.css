@@ -147,7 +147,7 @@ font-family: 'Open Sans', sans-serif; */
     padding: 2vh 0;
 } 
     
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:560px) {
       
     .navigation__menu{
         flex-direction: row;
@@ -162,8 +162,7 @@ font-family: 'Open Sans', sans-serif; */
     .section-about-me{
         display: flex;
         justify-content: space-around;
-        margin-top: 5vh;
-    }
+    } 
      
     .section-about-me_text{
         width: 40%;
@@ -188,14 +187,14 @@ font-family: 'Open Sans', sans-serif; */
     }
 
     .section-hero__headline{
-        top: 40%;
-        font-size: 8vw;
+        top: 50%;
+        font-size: 5vw;
         line-height: 180%;
     }
     
     }
     
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px){
 
     .section-about-me{
         flex-direction: row;
@@ -260,6 +259,6 @@ font-family: 'Open Sans', sans-serif; */
     .section-technology__flex-container__text{
         width: 40%;
     }
-    
 }
+
     
