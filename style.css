@@ -21,7 +21,7 @@
 
 .navigation__menu__item {
     font-size: 8vw;
-    color: #f5d394;
+    color: #9c9c9c;
     margin-right: 5vw;
     transition: 0.3s;
 }
@@ -61,9 +61,9 @@
     text-align: center;
     color: aliceblue;
     opacity: 0.85;
-    background-color: rgba(55, 71, 79, 0.5);
+    background-color: rgba(55, 71, 79, 0.6);
     padding: 1vh 2vw;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .section-hero_description {
@@ -74,13 +74,13 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 6vw;
     line-height: 140%;
-    width: 50vw;
+    width: 60vw;
     text-align: center;
     color: aliceblue;
     opacity: 0.85;
     background-color: rgba(55, 71, 79, 0.5);
     padding: 1vh 2vw;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .section-about-me {
