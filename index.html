@@ -15,15 +15,15 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <title>MarcinGalanty</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
-    <nav class="navigation">
-        <ul class="navigation__menu">
-            <li class="navigation__menu__item">start</li>
-            <li class="navigation__menu__item">o mnie</li>
-            <li class="navigation__menu__item">technologie</li>
-            <li class="navigation__menu__item">współpraca</li>
+    <nav class="navigation" id="home">
+        <ul class="navigation__menu" id="navigation-list">
+            <li class="navigation__menu__item" goto="home">Start</li>
+            <li class="navigation__menu__item" goto="about-me">O mnie</li>
+            <li class="navigation__menu__item" goto="technology">Technologie</li>
         </ul>
     </nav>
     <section class="section section-hero">
@@ -34,9 +34,8 @@
             Web Developer
         </h2>
     </section>
-    <section class="section section-about-me">
+    <section class="section section-about-me" id="about-me">
         <h2 class="section-about-me__text__headline">O MNIE</h2>
-
         <div class="section-about-me__flex-container">
             <div class="section-about-me__text">
                 <p class="section-about-me__text__content">Witaj. Nazywam się Marcin Galanty i od kilku miesięcy
@@ -61,7 +60,7 @@
         </div>
     </section>
 
-    <section class=" section section-technology">
+    <section class="section section-technology" id="technology">
         <h2 class="section-technology__headline">Technologie</h2>
         <div class="section-technology__flex-container">
             <div class="section-technology__flex-container__text">
@@ -118,7 +117,7 @@
             <div class="section-technology__flex-container__text">
                 <h2 class="section-technology__flex-container__text__headline">GIT</h2>
                 <p class="section-technology__flex-container__text__content">
-                    Git – stworzony przez Linusa Torvaldsa rozproszony system kontroli wersji. Jest standardem w pracy
+                    Stworzony przez Linusa Torvaldsa rozproszony system kontroli wersji. Jest standardem w pracy
                     zespołowej nad tworzeniem i rozwojem aplikacji oraz projektów webowych.
                 </p>
             </div>
@@ -140,7 +139,8 @@
         <p class="footer__text">&#169 Marcin Galanty</p>
     </footer>
 
-
+<script src="jquerry.js"></script>
+<script src="moveToLocation.js"></script>
 </body>
 
 </html>
