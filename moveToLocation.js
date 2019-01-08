@@ -5,5 +5,3 @@ $(document).ready(function(){
       $('html').scrollTop(top);
     });
   });
-
-  console.log('placuszki')
